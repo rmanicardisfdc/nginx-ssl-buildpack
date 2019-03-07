@@ -8,7 +8,7 @@ status() {
 set -e            # fail fast
 set -o pipefail   # don't ignore exit codes when piping output
 
-NGINX_VERSION=1.5.7
+NGINX_VERSION=1.15.9
 PCRE_VERSION=8.21
 
 nginx_tarball_url=http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz
